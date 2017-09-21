@@ -20,7 +20,8 @@
         //檢查是否連線錯誤
         if($dbLink->connect_error)
         {
-            die("連線錯誤：".$dbLink->connect_error);
+//            die("連線錯誤：".$dbLink->connect_error); //物件導向，透過物件執行。
+            die("連線錯誤：".mysqli_connect_error());//程序導向，此例是透過函數執行。
         }
         else
             echo "<br><br><br>連線成功囉~";
