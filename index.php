@@ -6,7 +6,7 @@
 </head>
 <body>
     <h1>Hello World, this is index.php</h1>
-    <?php echo "This is after hypertext preprocessor"
+    <?php echo "這是經過 hypertext preprocessor 處理後的字串"
     ?>
 </body>
 </html>
