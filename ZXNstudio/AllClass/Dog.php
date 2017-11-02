@@ -1,4 +1,5 @@
 <?php
+namespace ZXNstudio\AllClass;
 
 include_once "Animal.php";
 
@@ -17,9 +18,6 @@ class Dog extends Animal{
         return $this->petName;
     }
 
-    public function setPetName($petName){
-        $this->petName=$petName;
-    }
 }
 //測試
 /*$dog = new Dog("Uncle");
