@@ -1,0 +1,14 @@
+{
+    "name": "zxnstudio/composer-project",
+    "description": "use composer to build project",
+    "type": "project",
+    "license": "free",
+    "authors": [
+        {
+            "name": "chris",
+            "email": "zhuxiangning@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
