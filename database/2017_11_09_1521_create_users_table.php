@@ -4,11 +4,16 @@ include_once "read.php";
 
 use Illuminate\Database\Capsule\Manager as Capsule;
 
-Capsule::schema()->create('users', function ($table) {
-    $table->increments('id');
-    $table->string('name');
-    $table->string('phone');
-    $table->string('address');
-    $table->string('email');
-    $table->timestamps();
+//Capsule::schema()->create('users', function ($table) {
+//    $table->increments('id');
+//    $table->string('name');
+//    $table->string('phone');
+//    $table->string('address');
+//    $table->string('email');
+//    $table->timestamps();
+//});
+
+
+Capsule::schema()->table('users', function ($table){
+ $table->string('email')->unique()->change();
 });
