@@ -2,6 +2,7 @@
 include_once __DIR__."/../vendor/autoload.php";//__DIR__是目前這支 read.php 所在的位置，只是其結尾無斜線。所以後面用點串接的字串要以斜線開頭。
                                                //需要用 .. 回到上一層才能找到 vendor/autoload.php
 
+
 use Illuminate\Database\Capsule\Manager as Capsule;
 
 $capsule = new Capsule();
